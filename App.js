@@ -7,15 +7,14 @@
  */
 
 import React from 'react';
-import type {Node} from 'react';
 import WebView from 'react-native-webview';
 
 
-const App: () => Node = () => {
+const App = () => {
 
   return (
     <>
-    <WebView source={{ uri: 'https://konekita.com/' }} />
+      <WebView source={{ uri: 'https://konekita.com/' }} />
     </>
   );
 };
